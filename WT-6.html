@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #FF5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .menu-section {
+            margin-bottom: 30px;
+        }
+        .menu-section h2 {
+            background-color: #FF5722;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 0;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .item-name {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .item-description {
+            color: #555;
+        }
+        .item-price {
+            color: #FF5722;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Delicious Menu</h1>
+    </header>
+    
+    <div class="container">
+        <div class="menu-section">
+            <h2>Starters</h2>
+            <div class="menu-item">
+                <div>
+                    <div class="item-name">Bruschetta</div>
+                    <div class="item-description">Grilled bread topped with tomatoes, basil, and garlic.</div>
+                </div>
+                <div class="item-price">114.00</div>
+            </div>
+            <div class="menu-item">
+                <div>
+                    <div class="item-name">Stuffed Mushrooms</div>
+                    <div class="item-description">Mushrooms filled with cheese and herbs.</div>
+                </div>
+                <div class="item-price">200.00</div>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <div>
+                    <div class="item-name">Spaghetti Carbonara</div>
+                    <div class="item-description">Pasta with a creamy bacon and egg sauce.</div>
+                </div>
+                <div class="item-price">430.00</div>
+            </div>
+            <div class="menu-item">
+                <div>
+                    <div class="item-name">Grilled Salmon</div>
+                    <div class="item-description">Salmon fillet with a lemon dill sauce.</div>
+                </div>
+                <div class="item-price">560.00</div>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <div>
+                    <div class="item-name">Tiramisu</div>
+                    <div class="item-description">Coffee-flavored Italian dessert with mascarpone cheese.</div>
+                </div>
+                <div class="item-price">140.00</div>
+            </div>
+            <div class="menu-item">
+                <div>
+                    <div class="item-name">Chocolate Lava Cake</div>
+                    <div class="item-description">Warm chocolate cake with a gooey center.</div>
+                </div>
+                <div class="item-price">200.00</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
